@@ -1,0 +1,15 @@
+<!-- uploadForm.ejs -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>File Upload</title>
+</head>
+<body>
+  <h1>Upload Files</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" multiple>
+    <button type="submit">Upload</button>
+  </form>
+  <a href="/logout">Logout</a>
+</body>
+</html>
